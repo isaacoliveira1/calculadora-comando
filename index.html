@@ -922,7 +922,7 @@
 			}
 			
 
-			/* dinheiro sujo */
+			/* dinheiro sujo 
 			var sujo = parseInt(document.getElementById("sujo").value);
 			if (sujo > 0) {
 				var unidade_sujo = sujo / 10000;
@@ -930,7 +930,7 @@
 					Fianca += sujo / 100 * 50;
 
 				}
-			}
+			} */
 			if($("#mandado")[0].checked == false) {
 				if (Pena > 200) {
 					Pena = 200;
@@ -1018,7 +1018,7 @@
 				}
 			}
 	
-			/* dinheiro sujo */
+			/* dinheiro sujo 
 			var sujo = parseInt(document.getElementById("sujo").value);
 			if (sujo > 0) {
 				var unidade_sujo = sujo / 10000;
@@ -1026,7 +1026,7 @@
 					Multa += sujo / 100 * 50;
 					Fianca += sujo / 100 * 50;
 
-				}
+				} */
 			}if($("#mandado")[0].checked == false) {
 				if (Pena > 200) {
 					Pena = 200;
@@ -1075,6 +1075,7 @@
 					fiancaC += parseInt(valores_crime[2]);
 				}
 			}
+			/* 
 			var sujo = parseInt(document.getElementById("sujo").value);
 			if (sujo > 0) {
 				var unidade_sujo = sujo / 10000;
@@ -1083,7 +1084,7 @@
 
 				}
 			}
-			
+			*/
 
 			if ($("#advogado-30")[0].checked === true) {
 				pena = parseInt(pena) + parseInt(30);
@@ -1151,7 +1152,7 @@
 
 			document.getElementById("pena").value = "0";
 			document.getElementById("multa").value = "0";
-			document.getElementById("sujo").value = "";
+			/*document.getElementById("sujo").value = "";*/
 
 			document.getElementById("fianca").value = "0";
 			document.getElementById("condicional").value = "NÃO USAR";
