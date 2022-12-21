@@ -1020,14 +1020,17 @@
 	
 			/* dinheiro sujo 
 			var sujo = parseInt(document.getElementById("sujo").value);
+			
 			if (sujo > 0) {
 				var unidade_sujo = sujo / 10000;
 				if (sujo >= 1000) {
 					Multa += sujo / 100 * 50;
 					Fianca += sujo / 100 * 50;
 
-				} */
-			}if($("#mandado")[0].checked == false) {
+				}
+
+			} */
+		if($("#mandado")[0].checked == false) {
 				if (Pena > 200) {
 					Pena = 200;
 					$("#penamaxima")[0].style.display = 'block'
